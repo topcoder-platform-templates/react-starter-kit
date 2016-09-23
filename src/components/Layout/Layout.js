@@ -18,7 +18,7 @@ function Layout({ children }) {
   return (
     <div>
       <Header />
-      {React.Children.only(children)}
+      {children}
       <Feedback />
       <Footer />
     </div>
